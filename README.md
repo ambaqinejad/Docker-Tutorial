@@ -10,13 +10,13 @@
 3. docker logs  -f containerName/containerId             keeps running  follow mode
 
 #### Removing container
-.docker rm containerName/containerId
-.docker rm containerName/containerId containerName/containerId containerName/containerId containerName/containerId
-.docker container prune               to remove all stopped containers
+*docker rm containerName/containerId
+*docker rm containerName/containerId containerName/containerId containerName/containerId containerName/containerId
+*docker container prune               to remove all stopped containers
 
 
 #### Removing images
-.image that is depend on stopped or started container can not be removed
-.docker rmi imageName/imageId
-.docker rmi imageName/imageId imageName/imageId imageName/imageId imageName/imageId
-.docker image prune               to remove all images        
+*image that is depend on stopped or started container can not be removed
+*docker rmi imageName/imageId
+*docker rmi imageName/imageId imageName/imageId imageName/imageId imageName/imageId
+*docker image prune               to remove all images        
